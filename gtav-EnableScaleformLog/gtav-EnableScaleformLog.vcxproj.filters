@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="..\dependencies\patterns\Hooking.Patterns.cpp">
+      <Filter>dependencies\patterns</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{617530fa-fd6a-4aca-9d61-9bf4596378e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\patterns">
+      <UniqueIdentifier>{8afca3ad-06e4-44b8-b194-c10b873e8f9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
